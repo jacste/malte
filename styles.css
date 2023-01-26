@@ -1,0 +1,36 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  }
+  
+  ul{
+    list-style:none;
+  }
+  
+  .navbar {
+  background-color: black !important;
+  }
+  
+  /*
+  hero image examples
+  https://scontent-arn2-1.xx.fbcdn.net/v/t1.18169-9/10341623_447669275376748_2809241638984562838_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=Nt0tEpgsElEAX-8KgYT&_nc_ht=scontent-arn2-1.xx&oh=00_AfAoPFzVNIFjD-__hoDuySOP_9W8LrcW5GSzzRNMC1w1wA&oe=63F9F17C
+  https://scontent-arn2-1.xx.fbcdn.net/v/t31.18172-8/12138397_727986300678376_6733087841507556111_o.jpg?_nc_cat=102&ccb=1-7&_nc_sid=9267fe&_nc_ohc=vAIDF4IT3G0AX_EFeAa&_nc_ht=scontent-arn2-1.xx&oh=00_AfCTO_IBD8hgMISdpyKMxfzXbEccTFGxbqdvixipwmAebw&oe=63F9EDCC
+  */
+  .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://scontent-arn2-1.xx.fbcdn.net/v/t31.18172-8/12138397_727986300678376_6733087841507556111_o.jpg?_nc_cat=102&ccb=1-7&_nc_sid=9267fe&_nc_ohc=vAIDF4IT3G0AX_EFeAa&_nc_ht=scontent-arn2-1.xx&oh=00_AfCTO_IBD8hgMISdpyKMxfzXbEccTFGxbqdvixipwmAebw&oe=63F9EDCC");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
